@@ -20,4 +20,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }} # 这里是我们需要的token，会给我们加上
           branch: dev # The branch the action should deploy to. 生产某个新分支
-          folder: dist # The folder the action should deploy. 入口文件
+          folder: build # The folder the action should deploy. 入口文件
