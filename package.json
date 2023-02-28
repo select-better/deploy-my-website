@@ -39,6 +39,5 @@
   },
   "engines": {
     "node": ">=16.14"
-  },
-  "homepage": "https://select-better.github.io/deploy-my-website"
+  }
 }

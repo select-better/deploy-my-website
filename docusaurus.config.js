@@ -5,6 +5,8 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
+
+
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
@@ -14,7 +16,7 @@ const config = {
   url: 'https://select-better.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/deploy-my-website',
+  baseUrl: '/deploy-my-website/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
