@@ -19,4 +19,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
           branch: wcl-pages # The branch the action should deploy to.
-          folder: dist # The folder the action should deploy.
+          folder: build # The folder the action should deploy.
